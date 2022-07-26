@@ -49,8 +49,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "senaite.lims>=1.3.5",
-        "senaite.lims<1.4.0",
+        "senaite.lims>=2.0",
         # cryptography >= 3.4 does not support Python 2.x anymore
         "cryptography<3.4",
         "requests",
